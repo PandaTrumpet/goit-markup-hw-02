@@ -69,6 +69,9 @@ header {
 .section-one {
     background:  #2E2F42;
 }
+.main-title {
+    line-height: 1.07;
+}
 h1 {
     font-size: 56px;
     font-weight: 700;
@@ -79,12 +82,18 @@ h1 {
 }
 
 button {
+    font-family: "Roboto",
+        sans-serif inherit;
     font-weight: 500;
     line-height: 24px;
     letter-spacing: 0.64px;
     color:#FFFFFF;
     background-color:#4D5AE5;
     cursor: pointer;
+    }
+    button:hover,
+    button:focus {
+        background-color: #404BBF;
     }
 h2 {
     text-align: center;
