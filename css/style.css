@@ -14,16 +14,16 @@ header {
 }
 .logo-titel {
     color:  #4D5AE5;
-        font-family: "Raleway";
+        font-family: "Raleway", sans-serif;
         font-size: 18px;
         font-weight: 700;
-        line-height: 21px;
+        line-height: 1.17;
         letter-spacing: 0.54px;
         text-transform: uppercase;
 }
 .logo-titel-studio {
     color:  #2E2F42;
-        font-family: "Raleway";
+        font-family: "Raleway", sans-serif;
         font-size: 18px;
         font-weight: 700;
         line-height: 21px;
@@ -34,16 +34,20 @@ header {
     color:  #2E2F42;
          font-size: 16px;
         font-weight: 500;
-        line-height: 24px;
+        line-height: 1.5;
         letter-spacing: 0.32px;
 }
 .up-title:hover,
-.up-title:active  {
+.up-title:active,
+.up-title:focus  {
     color:  #404BBF;
            font-size: 16px;
         font-weight: 500;
-        line-height: 24px;
+        line-height: 1.5;
         letter-spacing: 0.32px;
+}
+.contacts {
+    font-style: normal;
 }
 .contacts-link {
     color:  #434455;
@@ -68,7 +72,7 @@ header {
      text-align: center;
     font-size: 56px;
      font-weight: 700;
-     line-height: 60px;
+     line-height: 1.07;
      letter-spacing: 1.12px;
 }
 .click {
@@ -76,6 +80,8 @@ header {
    letter-spacing: 0.64px;
    background-color: #4D5AE5;
    cursor: pointer;
+font-weight: 500;
+line-height: 1.5;
 }
 .click:hover,
 .click:focus,
@@ -112,9 +118,12 @@ background-color: #FFF;
     text-align: center;
     font-size: 36px;
     font-weight: 700;
-    line-height: 40px;
+    line-height: 1.11;
     letter-spacing: 0.72px;
     text-transform: capitalize;
+}
+.team-list {
+    background-color: #FFFFFF;
 }
 .team-member {
     color:#2E2F42;
@@ -128,6 +137,7 @@ background-color: #FFF;
     color: #434455;
     text-align: center;
     letter-spacing: 0.32px;
+    line-height: 1.5;
 }
 /*Section 4*/
 
