@@ -1,5 +1,5 @@
 body {
-    font-family: "Roboto", sans-serif, "Raleway", sans-serif;
+    font-family: "Roboto", sans-serif;
     background-color: #FFF;;
     color: #434455;
 }
@@ -175,4 +175,7 @@ line-height: 1.17;
 .team {
     background-color: #F4F4FD;
 
+}
+.list3 {
+    background-color: #FFFFFF;
 }
